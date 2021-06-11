@@ -8,7 +8,7 @@ Created with *create-react-app*. See the [full create-react-app guide](https://g
 Try It
 ---
 
-[The Calculator with React](https://github.com/hbonavota/CalculatorWithReact)
+[Calculator](https://github.com/hbonavota/CalculatorWithReact)
 
 
 
