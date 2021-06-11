@@ -28,4 +28,4 @@ Usage
 Preview
 ---
 
-![Screenshot.](./img/Screenshot.PNG)
+![Screenshot.](./Screenshot.PNG)
