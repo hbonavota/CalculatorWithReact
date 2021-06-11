@@ -23,3 +23,9 @@ Usage
 ---
 
 `npm start`
+
+
+Preview
+---
+
+![Screenshot.](./img/Screenshot)
