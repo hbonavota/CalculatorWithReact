@@ -20,7 +20,7 @@ If you have any questions or concerns with the installation you can write to me 
 
 # Install
 
-+ It would only be necessary to install the dependencies. Finally you have to go to the /allMovies folder and make the `npm install`.
++ It would only be necessary to install the dependencies. Finally you have to go to the /calculator-hooks folder and make the `npm install`.
 
 ```
 /calculator-hooks (main)
