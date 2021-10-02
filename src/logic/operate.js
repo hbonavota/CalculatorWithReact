@@ -1,4 +1,5 @@
 import Big from "big.js";
+import warningSweetAlert from "../alerts/alerts"
 
 const operate = (numberOne, numberTwo, operation) => {
   const one = Big(numberOne || "0");
@@ -15,8 +16,8 @@ const operate = (numberOne, numberTwo, operation) => {
       return one.times(two).toString();
 
     case "÷":
-      if (two === 0 || two == "0") {
-        alert("Divide by 0 error");
+      if (!parseInt(two)) {
+        warningSweetAlert()
         return "0";
       } else {
         return one.div(two).toString();
