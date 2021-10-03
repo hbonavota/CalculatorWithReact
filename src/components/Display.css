@@ -1,5 +1,5 @@
 .component-display {
-    background-color: #858694;
+    background-color: #7e7f8a;
     color: white;
     text-align: right;
     font-weight: 200;
@@ -8,7 +8,7 @@
   }
   
   .component-display > div {
-    font-size: 2.5rem;
+    font-size: 2.9rem;
     padding: 0.2rem 0.7rem 0.1rem 0.5rem;
   }
   
