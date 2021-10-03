@@ -9,13 +9,14 @@ const Button = (props) => {
 
   const className = [
     "component-button",
+    "btn third",
     props.orange ? "orange" : "",
     props.wide ? "wide" : "",
   ];
 
   return (
     <div className={className.join(" ").trim()}>
-      <button onClick={handleClick}>{props.name}</button>
+        <button onClick={handleClick}>{props.name}</button>
     </div>
   );
 }
