@@ -3,8 +3,13 @@
   text-align:center;
 }
 .component-app {
-/*   display: flex; */
   flex-direction: column;
   flex-wrap: wrap;
   height: 75%;
+}
+@media (max-width: 400px) {
+  .component-app {
+    display: flex;
+    flex-direction: column;
+  }
 }

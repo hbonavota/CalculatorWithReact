@@ -2,6 +2,7 @@ import React from "react";
 import Display from "./Display";
 import ButtonPanel from "./ButtonPanel";
 import calculate from "../logic/calculate";
+import Footer from "../components/Footer";
 import './App.css';
 
 export default class App extends React.Component {
@@ -21,6 +22,9 @@ export default class App extends React.Component {
         </h1>
         <Display value={this.state.next || this.state.total || "0"} />
         <ButtonPanel clickHandler={this.handleClick} />
+        <div>
+          <Footer />
+        </div>
       </div>
     );
   }
