@@ -5,7 +5,7 @@ import "./Display.css";
 const Display = (props) => {
   return (
     <div className="component-display">
-      <div>{props.value}</div>
+      <div data-value={props.value}>{props.value}</div>
     </div>
   );
 }
