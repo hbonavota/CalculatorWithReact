@@ -37,8 +37,31 @@ npm start
 ```
 <div align="center"><img  src="./client.png" /> </div>
 
+
+# TESTING CYPRESS -->
+
++ For de run test with Cypress, run the process with Interface `cypress:open`, or without interface `cypress:run` 
+
+```
+/calculator-hooks (main)
+npm run cypress:open
+
+```
++ With Interface
+<div align="center"><img  src="./screenshot.PNG" /> </div>
+
+
++ without interface
+
+<div align="center"><img  src="./test1.PNG" /> </div>
+<div align="center"><img  src="./2.PNG" /> </div>
 ___
 
-# Preview
+# Preview on Deploy in Vercel (Desktop)
 
-![Screenshot.](./screenshot.PNG)
+![Screenshot.](./deploy_vercel.PNG)
+
+# Preview on Deploy in Vercel (Mobile)
+
+![Screenshot.](./vercel_mobile.jpeg)
+
