@@ -57,7 +57,8 @@ npm run cypress:open
 <div align="center"><img  src="./2.PNG" /> </div>
 ___
 
-# Preview on Deploy in Vercel (Desktop)
+# Preview on Deploy in Vercel (Desktop) 
+See the [Link Deploy in Vercel](https://calculator-react-big-js.vercel.app/).
 
 ![Screenshot.](./deploy_vercel.PNG)
 
